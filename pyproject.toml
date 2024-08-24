@@ -2,5 +2,10 @@
 addopts = [
     "--import-mode=importlib",
 ]
-pythonpath = "src"
-
+pythonpath = [
+    "src",
+    "test_helpers"
+]
+testpaths = [
+    "tests"
+]
